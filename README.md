@@ -41,4 +41,4 @@ I used the format provided by the Starter-Code files provided.
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
     Performance was dependent on ensuring similar sample sizes for both.
 
-If you do not recommend any of the models, please justify your reasoning.
+I recommend using the second method (Linear Regression using resampling to create a balanced dataset). The healthy loans were only slightly less accurate (within about 1% accuracy), with the high-risk loans now having equivalent accuracy.
